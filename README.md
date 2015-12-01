@@ -2,9 +2,13 @@
 
 ![The Martian](archives.png)
 
-Inspired by the movie The Martian, this project emulates the research video logs that astronaut Mark Watney performs for the ARES organization.
+Inspired by the movie The Martian, this project emulates the research video logs that astronaut Mark Watney uses to document his progress and daily struggles to survive in Mars.
 
-The idea is to connect a set of webcams based in different locations and associate every cam to a single timepoint. 
+### Architecture
+---
+We want to connect a set of webcams based in different locations and timepoints. 
 
-CAM = (id, location, time, video file)
+Let C = {Set of cams belonging to a research space location L}. Let T be the timepoint where a log is created. Then, 
+
+log = (CAM id, location, timepoint, video file)
  
