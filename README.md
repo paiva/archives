@@ -11,4 +11,8 @@ We want to connect a set of webcams based in different locations and timepoints.
 Let C = {Set of cams belonging to a research space location L}. Let T be the timepoint where a log is created. Then, 
 
 log = (CAM id, location, timepoint, video file)
- 
+
+### After Effects
+---
+
+After Effects will be used to simulate the UI (time recorded, location of the video, day) shown in the above image.   
